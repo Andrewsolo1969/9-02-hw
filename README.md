@@ -2,7 +2,9 @@
 
 При выполнении задания в качестве Zabbix-serverиспользована домашняя машина.
 Zabbix-agent установлен на две виртуальные машины 
+
 192.168.122.104 
+
 192.168.122.198
 
 ---
@@ -74,6 +76,10 @@ Zabbix-agent запущен
 
 ![Zabbix monitoring](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/monitoring.png)
 
+
 ![Mint](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Mint.png)
 
-![Xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Xubuntu.png
+
+![Xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Xubuntu.png)
+
+
