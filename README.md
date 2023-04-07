@@ -18,19 +18,29 @@ Zabbix-agent установлен на две виртуальные машин�
 
 ![PostgressSQL](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Postgresssql.png)
 
-
 3. Пользуясь конфигуратором комманд с официального сайта, составьте набор команд для установки последней версии Zabbix с поддержкой PostgreSQL и Apache
+
+![Zabbix_Ubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Zabbix-Ubuntu.png)
+
 4. Выполните все необходимые команды для установки Zabbix Server и Zabbix Web Server
 
+![Zabbix install 1](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Inst_zabbix1.png)
+
+![Zabbix install 2](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Inst_zabbix2.png)
+
+Zabbix-server запущен
+
+![Zabbix-server](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/main_zabbix_server.png)
+
+
 ### Требования к результаты
+
 - Прикрепите в файл README.md скриншот авторизации в админке
-- Приложите в файл README.md текст использованных команд в GitHub
 
-![Создание виртуальной машины](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/VM_creating.png)
+![Zabbix admin](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/admin.png)
 
-Доступ на VM по SSH по ключу
+![Zabbix admin2](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/gui_zabbix_server.png)
 
-![Доступ по SSH](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/SSH.png)
 
 ## Задание 2
 
@@ -39,16 +49,31 @@ Zabbix-agent установлен на две виртуальные машин�
 Процесс выполнения
 1. Выполняя ДЗ сверяйтесь с процессом отражённым в записи лекции.
 2. Установите Zabbix Agent на 2 виртмашины, одной из них может быть ваш Zabbix Server
+
+Zabbix-agent запущен
+
+![Zabbix-agent1](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/mint_zabbix_agent.png)
+
+![Zabbix-agent2](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/xubuntu_zabbix_agent.png)
+
+
 3. Добавьте Zabbix Server в список разрешенных серверов ваших Zabbix Agentов
-4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Servera
+4. Добавьте Zabbix Agentов в раздел Configuration > Hosts вашего Zabbix Server
 5. Проверьте что в разделе Latest Data начали появляться данные с добавленных агентов
-
-
-![CPU utilization](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/CPU_utilization.png)
 
 Требования к результату
 
 - Приложите в файл README.md скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу
+
+![Zabbix conf](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Zabbix_configuration.png)
+
 - Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+
+
 - Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
-- Приложите в файл README.md текст использованных команд в GitHub
+
+![Zabbix monitoring](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/monitoring.png)
+
+![Mint](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Mint.png)
+
+![Xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Xubuntu.png
