@@ -75,13 +75,13 @@ Zabbix-agent запущен
 Log zabbix-agent для хоста 192.168.122.104 располагается в /var/log/zabbix/zabbix_agentd.log:
 
 
-![log agent](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log 104.png)
+![log agent](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log_104.png)
 
 
 Log zabbix-agent для хоста 192.168.122.198 располагается в /var/log/zabbix-agent/zabbix_agentd.log:
 
 
-![log xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log xubuntu.png)
+![log xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log_xubuntu.png)
 
 
 - Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
