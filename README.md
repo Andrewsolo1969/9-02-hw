@@ -1,6 +1,7 @@
 # Домашнее задание к занятию "9.1. «Система мониторинга Zabbix»" - Соловьёв Андрей SYS-18
 
-При выполнении задания в качестве Zabbix-serverиспользована домашняя машина.
+При выполнении задания в качестве Zabbix-server использована домашняя машина c Ubuntu 22.04
+
 Zabbix-agent установлен на две виртуальные машины 
 
 192.168.122.104 
@@ -70,6 +71,17 @@ Zabbix-agent запущен
 ![Zabbix conf](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/Zabbix_configuration.png)
 
 - Приложите в файл README.md скриншот лога zabbix agent, где видно, что он работает с сервером
+
+Log zabbix-agent для хоста 192.168.122.104 располагается в /var/log/zabbix/zabbix_agentd.log:
+
+
+![log agent](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log 104.png)
+
+
+Log zabbix-agent для хоста 192.168.122.198 располагается в /var/log/zabbix-agent/zabbix_agentd.log:
+
+
+![log xubuntu](https://github.com/Andrewsolo1969/9-02-hw/blob/main/img/log xubuntu.png)
 
 
 - Приложите в файл README.md скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные.
